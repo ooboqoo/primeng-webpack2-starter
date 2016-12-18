@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "pretty": true,
+    "outDir": "aot",
+
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitUseStrict": false,
+    "noFallthroughCasesInSwitch": true,
+    "typeRoots": [ "node_modules/@types" ],
+    "types": [ "node" ]
+  },
+  "angularCompilerOptions": {
+    "genDir": "aot",
+    "skipMetadataEmit" : true,
+    "entryModule": "app/app.module.ts#AppModule",
+    "debug": false
+  },
+  "files": [
+    "app/app.module.ts",
+    "app/main-aot.ts"
+  ],
+  "exclude": [ "node_modules", "dist", "prod", "aot" ]
+}

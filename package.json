@@ -1,0 +1,54 @@
+{
+  "name": "primeng-webpack2-starter",
+  "version": "v1.0.0",
+  "description": "Angular2 + PrimeNG + Webpack2 Starter with AoT support.",
+  "scripts": {
+    "ngc": "ngc -p ./tsconfig-aot.json",
+    "start": "webpack-dev-server --progress --watch --port 3300",
+    "build": "webpack --config=webpack-aot.config.js -p --progress",
+    "server": "live-server --entry-file=index.html",
+    "postinstall": "rm -rf node_modules/webpack/node_modules/uglify-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooboqoo/primeng-webpack2-starter"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "2.2.3",
+    "@angular/compiler": "2.2.3",
+    "@angular/core": "2.2.3",
+    "@angular/forms": "2.2.3",
+    "@angular/http": "2.2.3",
+    "@angular/platform-browser": "2.2.3",
+    "@angular/platform-browser-dynamic": "2.2.3",
+    "@angular/router": "3.2.3",
+    "chart.js": "^2.4.0",
+    "core-js": "^2.4.1",
+    "primeng": "^1.1.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0.beta.12",
+    "zone.js": "^0.6.28"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "2.2.3",
+    "@angular/platform-server": "2.2.3",
+    "@ngtools/webpack": "^1.1.6",
+    "@types/node": "^6.0.51",
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "^2.2.4",
+    "css-loader": "^0.25.0",
+    "exports-loader": "^0.6.3",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "live-server": "^1.1.0",
+    "raw-loader": "^0.5.1",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "typescript": "2.0.10",
+    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dev-server": "^2.1.0-beta.12"
+  }
+}

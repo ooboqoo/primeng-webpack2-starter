@@ -1,0 +1,8 @@
+node_modules
+build
+aot
+app/**/*.js
+*.log
+*.map
+*.d.ts
+*.DS_Store
