@@ -3,7 +3,6 @@ import 'core-js/es6';
 import 'core-js/es7/reflect';
 
 // Angular2 Dependencies
-import 'reflect-metadata/Reflect.js';  // webpack 的 extensions 设定貌似没有优先级顺序，随机的，然后 tsconfig 又配置不编译 node_module 下文件，然后就会时不时报找不到 Reflect.getMetadata
 import 'zone.js/dist/zone.js';
 
 // Angular 2
@@ -30,4 +29,4 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/switchMap';
 
 // Others
-import 'chart.js/dist/Chart.bundle.min.js';  // PrimeNG 图表依赖包
+import 'chart.js/dist/Chart.bundle.min.js';  // PrimeNG Charts Dependency
