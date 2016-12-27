@@ -9,7 +9,7 @@ import { MenuItem }  from 'primeng/primeng';
   `,
 })
 export class AppComponent {
-  private items: MenuItem[];
+  public items: MenuItem[];
 
   ngOnInit() {
     this.items = [
