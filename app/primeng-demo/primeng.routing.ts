@@ -11,7 +11,7 @@ export const primengRoutes: Routes = [
       { path: 'datatable', component: DatatableDemoComponent },
       { path: 'tree', component: TreeDemoComponent },
       { path: 'charts', component: BarDemoComponent },
-      { path: '', redirectTo: 'tree' },
+      { path: '', redirectTo: 'tree', pathMatch: 'full' },
     ]
   }
 ];
