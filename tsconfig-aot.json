@@ -10,25 +10,23 @@
     "sourceMap": true,
     "pretty": true,
     "outDir": "aot",
-
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "noImplicitAny": false,
     "noImplicitReturns": false,
     "noImplicitUseStrict": false,
     "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
     "typeRoots": [ "node_modules/@types" ],
     "types": [ "node", "core-js" ]
   },
+  "files": [
+    "app/app.module.ts"
+  ],
   "angularCompilerOptions": {
     "genDir": "aot",
     "skipMetadataEmit" : true,
     "entryModule": "app/app.module.ts#AppModule",
     "debug": false
-  },
-  "files": [
-    "app/app.module.ts",
-    "app/main-aot.ts"
-  ],
-  "exclude": [ "node_modules", "dist", "prod", "aot" ]
+  }
 }

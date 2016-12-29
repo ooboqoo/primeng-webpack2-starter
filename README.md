@@ -1,5 +1,7 @@
 # primeng-webpack2-starter
 
+> The AoT part was mainly referred to the project https://github.com/blacksonic/angular2-aot-webpack
+
 Angular2 + PrimeNG + Webpack2 starter whith AoT support.
 
 Download this repository and then install the packages:

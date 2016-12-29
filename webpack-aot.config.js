@@ -1,12 +1,11 @@
 let webpack = require('webpack');
 let path    = require('path');
-let ngtools = require('@ngtools/webpack');
 
 module.exports = {
 
   entry: {
     'vendor': './app/vendor-aot.ts',
-    'app':    './app/main.ts',
+    'app':    './app/main-aot.ts',
   },
 
   output: {
@@ -22,7 +21,7 @@ module.exports = {
     loaders: [
       {
         test: /\.ts$/,
-        loaders: ['awesome-typescript-loader', 'angular2-template-loader'],
+        loaders: ['awesome-typescript-loader?configFileName=tsconfig-aot.json', 'angular2-template-loader'],
       },
       {
         test: /\.html$/,
@@ -43,12 +42,5 @@ module.exports = {
         loader: 'url-loader?limit=25000',
       },
     ]
-  },
-
-  plugins: [
-    new ngtools.AotPlugin({
-      tsConfigPath: 'tsconfig-aot.json',
-      entryModule: 'app/app.module#AppModule'
-    })
-  ]
+  }
 };
