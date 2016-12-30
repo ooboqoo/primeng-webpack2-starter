@@ -1,6 +1,6 @@
 {
   "name": "primeng-webpack2-starter",
-  "version": "v1.1.0",
+  "version": "v1.1.1",
   "description": "Angular2 + PrimeNG + Webpack2 Starter with AoT support.",
   "scripts": {
     "ngc": "ngc -p ./tsconfig-aot.json",
