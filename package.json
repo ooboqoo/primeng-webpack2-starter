@@ -31,7 +31,6 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "2.4.1",
-    "@types/core-js": "^0.9.35",
     "@types/node": "^6.0.54",
     "angular2-template-loader": "0.6.0",
     "awesome-typescript-loader": "3.0.0-beta.17",

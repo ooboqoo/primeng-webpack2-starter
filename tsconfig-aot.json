@@ -6,9 +6,10 @@
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "lib": [ "ES2015", "DOM" ],
     "sourceMap": true,
     "outDir": "aot",
-    "types": [ "node", "core-js" ]
+    "types": [ "node" ]
   },
   "include": [
     "app/app.module.ts"
