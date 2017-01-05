@@ -4,8 +4,8 @@ var path    = require('path');
 module.exports = {
 
   entry: {
-    'vendor': './app/vendor.ts',
-    'app':    './app/main.ts',
+    'vendor': './app/vendor-jit.ts',
+    'app':    './app/main-jit.ts',
   },
 
   output: {
