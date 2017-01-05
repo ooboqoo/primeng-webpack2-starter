@@ -1,26 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "es2015",
-    "moduleResolution": "node",
-    "declaration": false,
+    "target": "ES5",
+    "module": "ES2015",
+    "moduleResolution": "Node",
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
-    "pretty": true,
     "outDir": "aot",
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "noImplicitAny": false,
-    "noImplicitReturns": false,
-    "noImplicitUseStrict": false,
-    "noFallthroughCasesInSwitch": true,
-    "skipLibCheck": true,
-    "typeRoots": [ "node_modules/@types" ],
     "types": [ "node", "core-js" ]
   },
-  "files": [
+  "include": [
     "app/app.module.ts"
   ],
   "angularCompilerOptions": {
