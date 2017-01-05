@@ -5,7 +5,7 @@
   "scripts": {
     "ngc": "ngc -p ./tsconfig-aot.json",
     "webpack": "webpack --config=webpack-aot.config.js -p --progress",
-    "start": "webpack-dev-server --progress --watch --port 3300",
+    "start": "webpack-dev-server --progress --watch --port 8080",
     "build": "npm run ngc && npm run webpack",
     "server": "live-server --entry-file=index.html"
   },
