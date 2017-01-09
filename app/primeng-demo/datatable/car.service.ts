@@ -8,14 +8,14 @@ export class CarService {
   constructor(private http: Http) {  }
 
   getCarsSmall() {
-    return this.http.get('/assets/primeng/cars/cars-small.json')
+    return this.http.get('assets/primeng/cars/cars-small.json')
                .toPromise()
                .then(res => res.json().data)
                .catch(this.handleError);
   }
 
   getCarsMedium() {
-    return this.http.get('/assets/primeng/cars/cars-medium.json')
+    return this.http.get('assets/primeng/cars/cars-medium.json')
                .toPromise()
                .then(res => res.json().data)
                .catch(this.handleError);

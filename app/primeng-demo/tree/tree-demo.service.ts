@@ -9,13 +9,13 @@ export class NodeService {
   constructor(private http: Http) { }
 
   getFiles() {
-    return this.http.get('/assets/primeng/tree/files.json')
+    return this.http.get('assets/primeng/tree/files.json')
       .toPromise()
       .then(res => <TreeNode[]>res.json().data);
   }
 
   getLazyFiles() {
-    return this.http.get('/assets/primeng/tree/files-lazy.json')
+    return this.http.get('assets/primeng/tree/files-lazy.json')
       .toPromise()
       .then(res => <TreeNode[]>res.json().data);
   }
