@@ -27,5 +27,5 @@ $ npm run build
 Test the build
 
 ```bash
-$ npm run server
+$ npm run serve
 ```
