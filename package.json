@@ -7,7 +7,7 @@
     "webpack": "webpack --config=webpack-aot.config.js -p --progress",
     "start": "webpack-dev-server --progress --watch --port 8080",
     "build": "npm run ngc && npm run webpack",
-    "serve": "live-server --entry-file=index.html"
+    "server": "live-server --entry-file=index.html"
   },
   "repository": {
     "type": "git",
@@ -15,37 +15,37 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@angular/common": "2.4.1",
-    "@angular/compiler": "2.4.1",
-    "@angular/core": "2.4.1",
-    "@angular/forms": "2.4.1",
-    "@angular/http": "2.4.1",
-    "@angular/platform-browser": "2.4.1",
-    "@angular/platform-browser-dynamic": "2.4.1",
-    "@angular/router": "3.4.1",
+    "@angular/common": "2.4.6",
+    "@angular/compiler": "2.4.6",
+    "@angular/core": "2.4.6",
+    "@angular/forms": "2.4.6",
+    "@angular/http": "2.4.6",
+    "@angular/platform-browser": "2.4.6",
+    "@angular/platform-browser-dynamic": "2.4.6",
+    "@angular/router": "3.4.6",
     "chart.js": "^2.4.0",
     "core-js": "^2.4.1",
-    "primeng": "^1.1.2",
-    "rxjs": "5.0.2",
-    "zone.js": "0.7.4"
+    "primeng": "^1.1.4",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.7.6"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "2.4.1",
-    "@types/node": "^6.0.54",
-    "angular2-template-loader": "0.6.0",
-    "awesome-typescript-loader": "3.0.0-beta.17",
+    "@angular/compiler-cli": "2.4.6",
+    "@types/node": "^7.0.5",
+    "angular2-template-loader": "^0.6.1",
+    "awesome-typescript-loader": "^3.0.2",
     "css-loader": "^0.25.0",
     "exports-loader": "^0.6.3",
     "file-loader": "^0.9.0",
     "html-loader": "^0.4.4",
-    "live-server": "^1.1.0",
+    "live-server": "^1.2.0",
     "raw-loader": "^0.5.1",
     "reflect-metadata": "^0.1.9",
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.1",
-    "typescript": "2.0.10",
+    "typescript": "^2.2.0",
     "url-loader": "^0.5.7",
-    "webpack": "2.1.0-beta.27",
-    "webpack-dev-server": "2.1.0-beta.12"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
   }
 }
